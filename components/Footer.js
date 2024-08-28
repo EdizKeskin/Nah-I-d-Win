@@ -5,7 +5,7 @@ import { BiHome, BiImages, BiLogoGithub } from "react-icons/bi";
 
 export default function Footer() {
   return (
-    <div className="fixed bottom-0 right-0 z-50 flex flex-row-reverse items-end min-h-screen gap-5 mx-5">
+    <div className="fixed bottom-0 right-0 flex flex-row-reverse items-end gap-5 mx-5">
       <div className="tooltip-container ">
         <span className="tooltip">Home</span>
         <Link
